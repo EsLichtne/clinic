@@ -9,36 +9,42 @@
 
 <body>
   <header class="page-header">
-    <nav class="page-nav">
-      <ul class="center-services-list">
-        <li class="center-services-item">
-          <a class="center-services-link" href="#">Клиника</a>
+    <div class="center-menu-wrapper">
+      <ul class="center-menu-list">
+        <li class="center-menu-item">
+          <a class="center-menu-link" href="#">Клиника</a>
         </li>
-        <li class="center-services-item">
-          <a class="center-services-link center-services-link-current" href="#">Косметология</a>
+        <li class="center-menu-item">
+          <a class="center-menu-link center-menu-link-current" href="#">Косметология</a>
         </li>
-        <li class="center-services-item">
-          <a class="center-services-link" href="#">Роддом</a>
+        <li class="center-menu-item">
+          <a class="center-menu-link" href="#">Роддом</a>
         </li>
-        <li class="center-services-item">
-          <a class="center-services-link" href="#">Репродукция</a>
+        <li class="center-menu-item">
+          <a class="center-menu-link" href="#">Репродукция</a>
         </li>
-        <li class="center-services-item">
-          <a class="center-services-link" href="#">Стоматология</a>
+        <li class="center-menu-item">
+          <a class="center-menu-link" href="#">Стоматология</a>
         </li>
-        <li class="center-services-item">
-          <a class="center-services-link" href="#">Детский стационар</a>
+        <li class="center-menu-item">
+          <a class="center-menu-link" href="#">Детский стационар</a>
         </li>
-        <li class="center-services-item">
-          <a class="center-services-link" href="#">Пластическая хирургия</a>
+        <li class="center-menu-item">
+          <a class="center-menu-link" href="#">Пластическая хирургия</a>
         </li>
       </ul>
-      <a class="center-logo" href="#">
-        <img class="center-logo-image" width="162" height="40" src="image/logo.svg" alt="Логотип центра.">
-      </a>
-      <a class="center-phone" href="tel:+78612020202">8 (861) <span class="bold-phone-text">202-0-202</span></a>
-      <a class="button entry-button" href="#">Записаться</a>
-      <a class="button login-button" href="#">Войти</a>
+    </div>
+    <nav class="page-nav">
+      <div class="nav-information-wrapper">
+        <a class="center-logo" href="#">
+          <img class="center-logo-image" width="162" height="40" src="image/logo.svg" alt="Логотип центра.">
+        </a>
+        <a class="center-phone" href="tel:+78612020202">8 (861) <span class="bold-phone-text">202-0-202</span></a>
+        <div class="nav-buttons-wrapper">
+          <a class="button entry-button" href="#">Записаться</a>
+          <a class="button login-button" href="#">Войти</a>
+        </div>
+      </div>
       <ul class="header-nav-list">
         <li class="header-nav-item">
           <a class="header-nav-link" href="#">О центре</a>
@@ -60,274 +66,300 @@
         </li>
       </ul>
     </nav>
+
   </header>
   <main class="index-main">
     <section class="hero">
-      <h1 class="visually-hidden">Центр косметологии Клиники Екатерининская.</h1>
-      <p class="hero-title">-50% на перманентный макияж</p>
-      <p class="hero-subtitle">Весь март</p>
-      <a class="button hero-more-button" href="#">Подробнее</a>
-      <ol class="hero-pagination-list">
-        <li class="hero-pagination-item">
-          <button class="hero-pagination-button hero-pagination-button-current" type="button"></button>
-        </li>
-        <li class="hero-pagination-item">
-          <button class="hero-pagination-button" type="button"></button>
-        </li>
-        <li class="hero-pagination-item">
-          <button class="hero-pagination-button" type="button"></button>
-        </li>
-        <li class="hero-pagination-item">
-          <button class="hero-pagination-button" type="button"></button>
-        </li>
-        <li class="hero-pagination-item">
-          <button class="hero-pagination-button" type="button"></button>
-        </li>
-      </ol>
+      <div class="section-container">
+        <h1 class="visually-hidden">Центр косметологии Клиники Екатерининская.</h1>
+        <p class="hero-title">-50% на перманентный макияж</p>
+        <p class="hero-subtitle">Весь март</p>
+        <a class="button hero-more-button" href="#">Подробнее</a>
+        <ol class="hero-pagination-list">
+          <li class="hero-pagination-item">
+            <button class="hero-pagination-button hero-pagination-button-current" type="button"></button>
+          </li>
+          <li class="hero-pagination-item">
+            <button class="hero-pagination-button" type="button"></button>
+          </li>
+          <li class="hero-pagination-item">
+            <button class="hero-pagination-button" type="button"></button>
+          </li>
+          <li class="hero-pagination-item">
+            <button class="hero-pagination-button" type="button"></button>
+          </li>
+          <li class="hero-pagination-item">
+            <button class="hero-pagination-button" type="button"></button>
+          </li>
+        </ol>
+      </div>
     </section>
     <section class="services">
-      <h2 class="title services-title">Услуги центра</h2>
-      <a class="button services-more-button" href="#">Все услуги</a>
-      <ul class="services-list">
-        <li class="services-item">
-          <h3 class="services-item-title"><span class="italic-title-wripper">Аппаратная</span> косметология</h3>
-          <ul class="services-description-list">
-            <li class="services-description-item">Альтера-терапия</li>
-            <li class="services-description-item">Фототерапия BBL Hero</li>
-            <li class="services-description-item">Гидропилинг HydraFacial MD</li>
-            <li class="services-description-item">Лазерная шлифовка</li>
-            <li class="services-description-item">Фракционный микроигольчатый RF-лифтинг</li>
-            <li class="services-description-item">Микротоки Biogenie</li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="services-list">
-        <li class="services-item">
-          <h3 class="services-item-title"><span class="italic-title-wripper">Инъекционная</span> косметология</h3>
-          <ul class="services-description-list">
-            <li class="services-description-item">Биоревитализация</li>
-            <li class="services-description-item">Ботулинотерапия</li>
-            <li class="services-description-item">Контурная пластика</li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="services-list">
-        <li class="services-item">
-          <h3 class="services-item-title"><span class="italic-title-wripper">Эстетическая</span> косметология</h3>
-          <ul class="services-description-list">
-            <li class="services-description-item">Гигиеническая чистка</li>
-            <li class="services-description-item">Перманентный макияж</li>
-            <li class="services-description-item">Пилинги</li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="services-list">
-        <li class="services-item">
-          <h3 class="services-item-title"><span class="italic-title-wripper">Лазерная</span> косметология</h3>
-        </li>
-      </ul>
-      <ul class="services-list">
-        <li class="services-item">
-          <h3 class="services-item-title"><span class="italic-title-wripper">Мужская</span> косметология</h3>
-        </li>
-      </ul>
+      <div class="section-container">
+        <h2 class="title services-title">Услуги центра</h2>
+        <a class="button services-more-button" href="#">Все услуги</a>
+        <ul class="services-list">
+          <li class="services-item">
+            <h3 class="services-item-title"><span class="italic-title-wripper">Аппаратная</span> косметология</h3>
+            <ul class="services-description-list">
+              <li class="services-description-item">Альтера-терапия</li>
+              <li class="services-description-item">Фототерапия BBL Hero</li>
+              <li class="services-description-item">Гидропилинг HydraFacial MD</li>
+              <li class="services-description-item">Лазерная шлифовка</li>
+              <li class="services-description-item">Фракционный микроигольчатый RF-лифтинг</li>
+              <li class="services-description-item">Микротоки Biogenie</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="services-list">
+          <li class="services-item">
+            <h3 class="services-item-title"><span class="italic-title-wripper">Инъекционная</span> косметология</h3>
+            <ul class="services-description-list">
+              <li class="services-description-item">Биоревитализация</li>
+              <li class="services-description-item">Ботулинотерапия</li>
+              <li class="services-description-item">Контурная пластика</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="services-list">
+          <li class="services-item">
+            <h3 class="services-item-title"><span class="italic-title-wripper">Эстетическая</span> косметология</h3>
+            <ul class="services-description-list">
+              <li class="services-description-item">Гигиеническая чистка</li>
+              <li class="services-description-item">Перманентный макияж</li>
+              <li class="services-description-item">Пилинги</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="services-list">
+          <li class="services-item">
+            <h3 class="services-item-title"><span class="italic-title-wripper">Лазерная</span> косметология</h3>
+          </li>
+        </ul>
+        <ul class="services-list">
+          <li class="services-item">
+            <h3 class="services-item-title"><span class="italic-title-wripper">Мужская</span> косметология</h3>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="advantages">
-      <h2 class="visually-hidden">Преимущества центра.</h2>
-      <p class="advantages-title"><span class="italic-title-wripper">Центр косметологии</span> Клиники Екатерининская</p>
-      <p class="advantages-description">В косметологии Клиники Екатерининская работают только врачи-дерматокосметологи и
-        трихологи. Поэтому мы гарантируем профессиональный подход и только самое качественное выполнение услуг. К вашим
-        услугам лазерная и инъекционная косметология, аппаратные методики, профессиональный уход за кожей.</p>
-      <a class="button advantages-more-button" href="#">О Центре</a>
-      <ul class="advantages-list">
-        <li class="advantages-item">
-          <h3 class="advantages-item-title">Передовые технологии</h3>
-          <p class="advantages-item-description">Используем только оригинальные сертифицированные аппараты и препараты
-          </p>
-        </li>
-        <li class="advantages-item">
-          <h3 class="advantages-item-title">Сохраняем конфиденциальность</h3>
-          <p class="advantages-item-description">Бережно относимся к персональной информации пациентов</p>
-        </li>
-        <li class="advantages-item">
-          <h3 class="advantages-item-title">Ценим ваше время</h3>
-          <p class="advantages-item-description">Персональный менеджер запишет на удобный день и ответит на вопросы</p>
-        </li>
-      </ul>
+      <div class="section-container">
+        <h2 class="visually-hidden">Преимущества центра.</h2>
+        <p class="advantages-title"><span class="italic-title-wripper">Центр косметологии</span> Клиники Екатерининская
+        </p>
+        <p class="advantages-description">В косметологии Клиники Екатерининская работают только врачи-дерматокосметологи
+          и
+          трихологи. Поэтому мы гарантируем профессиональный подход и только самое качественное выполнение услуг. К
+          вашим
+          услугам лазерная и инъекционная косметология, аппаратные методики, профессиональный уход за кожей.</p>
+        <a class="button advantages-more-button" href="#">О Центре</a>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <h3 class="advantages-item-title">Передовые технологии</h3>
+            <p class="advantages-item-description">Используем только оригинальные сертифицированные аппараты и препараты
+            </p>
+          </li>
+          <li class="advantages-item">
+            <h3 class="advantages-item-title">Сохраняем конфиденциальность</h3>
+            <p class="advantages-item-description">Бережно относимся к персональной информации пациентов</p>
+          </li>
+          <li class="advantages-item">
+            <h3 class="advantages-item-title">Ценим ваше время</h3>
+            <p class="advantages-item-description">Персональный менеджер запишет на удобный день и ответит на вопросы
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="specialists">
-      <h2 class="title specialists-title">Наши специалисты</h2>
-      <a class="button specialists-more-button" href="#">Все специалисты</a>
-      <ul class="specialists-list">
-        <li class="specialists-item">
-          <h3 class="specialists-item-title">Бондарь Мария Викторовна</h3>
-          <img class="specialists-photo" src="image/specialist-1.png" width="350" height="445" alt="">
-          <p class="specialists-item-description">Специалист по перманентному макияжу (дермапигментации)</p>
-        </li>
-        <li class="specialists-item">
-          <h3 class="specialists-item-title">Меджидова
-            Саидат Мусаевна</h3>
-          <img class="specialists-photo" src="image/specialist-2.png" width="350" height="445" alt="">
-          <p class="specialists-item-description">Косметолог</p>
-        </li>
-        <li class="specialists-item">
-          <h3 class="specialists-item-title">Голубченко
-            Марина Валерьевна</h3>
-          <img class="specialists-photo" src="image/specialist-3.png" width="350" height="445" alt="">
-          <p class="specialists-item-description">Дерматовенеролог</p>
-          <span class="specialists-item-supplement">+ 2 специальности</span>
-        </li>
-      </ul>
-      <button class="specialists-leaf-button specialists-back-button" type="button"></button>
-      <button class="specialists-leaf-button specialists-next-button" type="button"></button>
+      <div class="section-container">
+        <h2 class="title specialists-title">Наши специалисты</h2>
+        <a class="button specialists-more-button" href="#">Все специалисты</a>
+        <ul class="specialists-list">
+          <li class="specialists-item">
+            <h3 class="specialists-item-title">Бондарь Мария Викторовна</h3>
+            <img class="specialists-photo" src="image/specialist-1.png" width="350" height="445" alt="">
+            <p class="specialists-item-description">Специалист по перманентному макияжу (дермапигментации)</p>
+          </li>
+          <li class="specialists-item">
+            <h3 class="specialists-item-title">Меджидова
+              Саидат Мусаевна</h3>
+            <img class="specialists-photo" src="image/specialist-2.png" width="350" height="445" alt="">
+            <p class="specialists-item-description">Косметолог</p>
+          </li>
+          <li class="specialists-item">
+            <h3 class="specialists-item-title">Голубченко
+              Марина Валерьевна</h3>
+            <img class="specialists-photo" src="image/specialist-3.png" width="350" height="445" alt="">
+            <p class="specialists-item-description">Дерматовенеролог</p>
+            <span class="specialists-item-supplement">+ 2 специальности</span>
+          </li>
+        </ul>
+        <button class="specialists-leaf-button specialists-back-button" type="button"></button>
+        <button class="specialists-leaf-button specialists-next-button" type="button"></button>
+      </div>
     </section>
     <section class="reviews">
-      <h2 class="title reviews-title">Отзывы</h2>
-      <a class="button reviews-more-button" href="#">Все отзывы</a>
-      <ul class="reviews-list">
-        <li class="reviews-item">
-          <blockquote class="rewiews-blockquote">
-            <p class="rewiews-text">Я лишь недавно узнала про эту клинику, нашла в инете по отзывам. Была у дерматолога
-              Голубченко М. В., все посмотрела, объяснила. пришли к выводу, что небольшое лечение всё-таки необходимо.
-              Стоимость приема в пределах разумного.
-              Спасибо.</p>
-          </blockquote>
-        </li>
-        <li class="reviews-item">
-          <blockquote class="rewiews-blockquote">
-            <p class="rewiews-text">К Юлии Сергеевне хожу уже 7 лет, очень нравится ее подход, никогда не навязывает
-              лишнего, если видит, что нет необходимости в процедуре. Все что она рекомендовала мне, всегда имеет
-              эффект. Последний раз делала RF лифтинг, несколько процедур в комплексе с биоверитализацией и витаминами.
-              Лицо заметно подтянулось.</p>
-          </blockquote>
-        </li>
-      </ul>
-      <p class="feedback-text">Для нас важно ваше мнение!</p>
-      <a class="button feedback-button" href="#">Оставить отзыв</a>
+      <div class="section-container">
+        <h2 class="title reviews-title">Отзывы</h2>
+        <a class="button reviews-more-button" href="#">Все отзывы</a>
+        <ul class="reviews-list">
+          <li class="reviews-item">
+            <blockquote class="rewiews-blockquote">
+              <p class="rewiews-text">Я лишь недавно узнала про эту клинику, нашла в инете по отзывам. Была у
+                дерматолога
+                Голубченко М. В., все посмотрела, объяснила. пришли к выводу, что небольшое лечение всё-таки необходимо.
+                Стоимость приема в пределах разумного.
+                Спасибо.</p>
+            </blockquote>
+          </li>
+          <li class="reviews-item">
+            <blockquote class="rewiews-blockquote">
+              <p class="rewiews-text">К Юлии Сергеевне хожу уже 7 лет, очень нравится ее подход, никогда не навязывает
+                лишнего, если видит, что нет необходимости в процедуре. Все что она рекомендовала мне, всегда имеет
+                эффект. Последний раз делала RF лифтинг, несколько процедур в комплексе с биоверитализацией и
+                витаминами.
+                Лицо заметно подтянулось.</p>
+            </blockquote>
+          </li>
+        </ul>
+        <p class="feedback-text">Для нас важно ваше мнение!</p>
+        <a class="button feedback-button" href="#">Оставить отзыв</a>
+      </div>
     </section>
     <section class="contacts">
-      <h2 class="title contacts-title">Контакты</h2>
-      <img class="contacts-image" src="image/color-building.jpg" width="539" height="453" alt="Здание центра косметологии.">
-      <ol class="contacts-pagination-list">
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button contacts-pagination-button-current" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-        <li class="contacts-pagination-item">
-          <button class="contacts-pagination-button" type="button"></button>
-        </li>
-      </ol>
-      <p class="title contacts-subtitle">Центр косметологии Клиники Екатерининская</p>
-      <address class="contacts-address">
-        <p class="contacts-address-text">ул. Кожевенная, 66</p>
-      </address>
-      <ul class="contacts-shedule-list">
-        <li class="contacts-shedule-item">пн-пт: 8:00 - 20:00</li>
-        <li class="contacts-shedule-item">сб: 8:00 - 18:00</li>
-        <li class="contacts-shedule-item">вс: 10:00 - 18:00</li>
-      </ul>
-      <ul class="contacts-social-list">
-        <li class="contacts-social-item">
-          <a class="contacts-social-link" href="#">beautyclinic23ru</a>
-        </li>
-        <li class="contacts-social-item">
-          <a class="contacts-social-link" href="#">ek@clinic23.ru</a>
-        </li>
-      </ul>
+      <div class="section-container">
+        <h2 class="title contacts-title">Контакты</h2>
+        <img class="contacts-image" src="image/color-building.jpg" width="539" height="453"
+          alt="Здание центра косметологии.">
+        <ol class="contacts-pagination-list">
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button contacts-pagination-button-current" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+          <li class="contacts-pagination-item">
+            <button class="contacts-pagination-button" type="button"></button>
+          </li>
+        </ol>
+        <p class="title contacts-subtitle">Центр косметологии Клиники Екатерининская</p>
+        <address class="contacts-address">
+          <p class="contacts-address-text">ул. Кожевенная, 66</p>
+        </address>
+        <ul class="contacts-shedule-list">
+          <li class="contacts-shedule-item">пн-пт: 8:00 - 20:00</li>
+          <li class="contacts-shedule-item">сб: 8:00 - 18:00</li>
+          <li class="contacts-shedule-item">вс: 10:00 - 18:00</li>
+        </ul>
+        <ul class="contacts-social-list">
+          <li class="contacts-social-item">
+            <a class="contacts-social-link" href="#">beautyclinic23ru</a>
+          </li>
+          <li class="contacts-social-item">
+            <a class="contacts-social-link" href="#">ek@clinic23.ru</a>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="rating">
-      <h2 class="title rating-title">Рейтинги независимых сервисов</h2>
-      <ul class="rating-list">
-        <li class="rating-item">
-          <h3 class="rating-company-name">Яндекс</h3>
-          <span class="rating-company-grade">5.0</span>
-          <span class="rating-amount">498 отзыва</span>
-        </li>
-        <li class="rating-item">
-          <h3 class="rating-company-name">2 GIS</h3>
-          <span class="rating-company-grade">4.8</span>
-          <span class="rating-amount">340 отзыв</span>
-        </li>
-        <li class="rating-item">
-          <h3 class="rating-company-name">Сбер Здоровье</h3>
-          <span class="rating-company-grade">4.1</span>
-          <span class="rating-amount">80 отзывов</span>
-        </li>
-        <li class="rating-item">
-          <h3 class="rating-company-name">ПроДокторов</h3>
-          <span class="rating-company-grade">4.8</span>
-          <span class="rating-amount">1169 отзывов</span>
-        </li>
-      </ul>
+      <div class="section-container">
+        <h2 class="title rating-title">Рейтинги независимых сервисов</h2>
+        <ul class="rating-list">
+          <li class="rating-item">
+            <h3 class="rating-company-name">Яндекс</h3>
+            <span class="rating-company-grade">5.0</span>
+            <span class="rating-amount">498 отзыва</span>
+          </li>
+          <li class="rating-item">
+            <h3 class="rating-company-name">2 GIS</h3>
+            <span class="rating-company-grade">4.8</span>
+            <span class="rating-amount">340 отзыв</span>
+          </li>
+          <li class="rating-item">
+            <h3 class="rating-company-name">Сбер Здоровье</h3>
+            <span class="rating-company-grade">4.1</span>
+            <span class="rating-amount">80 отзывов</span>
+          </li>
+          <li class="rating-item">
+            <h3 class="rating-company-name">ПроДокторов</h3>
+            <span class="rating-company-grade">4.8</span>
+            <span class="rating-amount">1169 отзывов</span>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="subscribe-entry">
-      <h2 class="title subscribe-entry-title">Запишитесь на консультацию</h2>
-      <p class="subscribe-entry-description">Укажите свой номер телефона. Мы свяжемся с вами в ближайшее время.</p>
-      <form class="subscribe-entry-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label for="entry-phone" class="visually-hidden">Номер телефона.</label>
-        <input class="subscribe-entry-field" type="tel" name="entry-phone" id="entry-phone"
-          placeholder="+7 (___) ___-__-__" required>
-        <button class="button subscribe-entry-button" type="submit">Отправить</button>
-        <label class="subscribe-entry-agreement">
-          <span class="entry-agreement-text">Я соглашаюсь с <a class="entry-information-link" href="#">политикой
-              обработки персональных данных</a> и <a class="entry-information-link" href="#">пользовательским
-              соглашением</a>, а также даю
-            согласие на <a class="entry-information-link" href="#">обработку персональных данных</a>.</span>
-          <input class="entry-agreement-checkbox" type="checkbox" name="entry-agreement">
-        </label>
-      </form>
+      <div class="section-container">
+        <h2 class="title subscribe-entry-title">Запишитесь на консультацию</h2>
+        <p class="subscribe-entry-description">Укажите свой номер телефона. Мы свяжемся с вами в ближайшее время.</p>
+        <form class="subscribe-entry-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="entry-phone" class="visually-hidden">Номер телефона.</label>
+          <input class="subscribe-entry-field" type="tel" name="entry-phone" id="entry-phone"
+            placeholder="+7 (___) ___-__-__" required>
+          <button class="button subscribe-entry-button" type="submit">Отправить</button>
+          <label class="subscribe-entry-agreement">
+            <span class="entry-agreement-text">Я соглашаюсь с <a class="entry-information-link" href="#">политикой
+                обработки персональных данных</a> и <a class="entry-information-link" href="#">пользовательским
+                соглашением</a>, а также даю
+              согласие на <a class="entry-information-link" href="#">обработку персональных данных</a>.</span>
+            <input class="entry-agreement-checkbox" type="checkbox" name="entry-agreement">
+          </label>
+        </form>
+      </div>
     </section>
   </main>
   <footer class="page-footer">
-    <a class="footer-logo" href="#">
-      <img class="footer-logo-image" width="162" height="40" src="image/logo.svg" alt="Логотип центра.">
-    </a>
-    <p class="footer-copyright">© 2023 «Клиника Екатерининская»</p>
-    <a class="footer-documents-link" href="#">Лицензия №ЛО-23-01-014758 от 21 августа 2020</a>
-    <a class="footer-documents-link" href="#">Правовые документы</a>
-    <button class="visually-impaired-button" type="button">Версия для слабовидящих</button>
-    <p class="footer-prevention-text">Имеются противопоказания. Необходима консультация специалиста</p>
+    <div class="footer-container">
+      <a class="footer-logo" href="#">
+        <img class="footer-logo-image" width="162" height="40" src="image/logo.svg" alt="Логотип центра.">
+      </a>
+      <p class="footer-copyright">© 2023 «Клиника Екатерининская»</p>
+      <a class="footer-documents-link" href="#">Лицензия №ЛО-23-01-014758 от 21 августа 2020</a>
+      <a class="footer-documents-link" href="#">Правовые документы</a>
+      <button class="visually-impaired-button" type="button">Версия для слабовидящих</button>
+      <p class="footer-prevention-text">Имеются противопоказания. Необходима консультация специалиста</p>
+    </div>
   </footer>
   <button class="page-call-button" type="button">
     <span class="visually-hidden">Позвонить.</span>

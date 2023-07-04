@@ -62,6 +62,10 @@
 }
 
 body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  min-width: 1920px;
   margin: 0;
   font-family: "Manrope", arial, sans-serif;
   font-size: 18px;
@@ -72,10 +76,13 @@ body {
 }
 
 .button {
+  display: inline-block;
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
   text-decoration: none;
+  border-radius: 24px;
+  box-shadow: 0 0 16px 0 rgba(230, 230, 230, 0.5);
 }
 
 .title {
@@ -90,17 +97,48 @@ body {
   background-color: #ffffff;
 }
 
-.center-services-list {
-  margin: 0;
+.center-menu-wrapper {
+  background-color: #ebebeb;
+}
+
+.center-menu-list {
+  width: 976px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
 }
 
-.center-services-link {
+.center-menu-link {
+  display: block;
+  padding: 5px 26px;
   font-size: 13px;
   line-height: 19px;
   text-decoration: none;
   color: #546272;
+}
+
+.center-menu-link-current {
+  background-color: #ffffff;
+  box-shadow: inset 0 0 16px 0 rgba(230, 230, 230, 0.5);
+}
+
+.page-nav {
+  padding: 0 405px;
+}
+
+.nav-information-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 14px 0 14px 17px;
+}
+
+.center-logo-image {
+  display: block;
 }
 
 .center-logo {
@@ -108,6 +146,7 @@ body {
 }
 
 .center-phone {
+  padding-top: 7px;
   text-decoration: none;
   color: #546272;
 }
@@ -117,25 +156,53 @@ body {
 }
 
 .entry-button {
+  padding: 9px 19px;
   color: #ffffff;
+  background-color: #546272;
+}
+
+.nav-buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .login-button {
+  padding: 9px 19px;
+  padding-left: 43px;
   color: #546272;
+  background-color: #ffffff;
+  background-image: url("../image/user-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 16px 11px;
+  background-size: 22px 21px;
 }
 
 .header-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
+  border-top: 1px solid rgba(84, 98, 114, 0.25);
 }
 
 .header-nav-link {
+  display: block;
+  padding: 10px 22px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   text-decoration: none;
   color: #546272;
+}
+
+/* Основное содержимое */
+
+.section-container {
+  width: 1110px;
+  margin: 0 auto;
 }
 
 /* Герой */
@@ -188,7 +255,7 @@ body {
   background-color: #e7e1e0;
 }
 
-.services-item-title{
+.services-item-title {
   margin: 0;
   font-family: "Cormorant Garamond", arial, sans-serif;
   font-size: 27px;
@@ -436,6 +503,11 @@ body {
   line-height: 19px;
   color: #ffffff;
   background-color: #546272;
+}
+
+.footer-container {
+  width: 1110px;
+  margin: 0 auto;
 }
 
 .footer-copyright {
