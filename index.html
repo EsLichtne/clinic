@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Клиника Екатерининская</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -34,11 +34,11 @@
         </li>
       </ul>
       <a class="center-logo" href="#">
-        <img class="center-logo-image" width="162" height="40" src="#" alt="Логотип центра.">
+        <img class="center-logo-image" width="162" height="40" src="image/logo.svg" alt="Логотип центра.">
       </a>
-      <a class="center-phone" href="tel:+78612020202">8 (861) 202-0-202</a>
-      <a class="entry-button" href="#">Записаться</a>
-      <a class="login-button" href="#">Войти</a>
+      <a class="center-phone" href="tel:+78612020202">8 (861) <span class="bold-phone-text">202-0-202</span></a>
+      <a class="button entry-button" href="#">Записаться</a>
+      <a class="button login-button" href="#">Войти</a>
       <ul class="header-nav-list">
         <li class="header-nav-item">
           <a class="header-nav-link" href="#">О центре</a>
@@ -66,7 +66,7 @@
       <h1 class="visually-hidden">Центр косметологии Клиники Екатерининская.</h1>
       <p class="hero-title">-50% на перманентный макияж</p>
       <p class="hero-subtitle">Весь март</p>
-      <a class="more-button" href="#">Подробнее</a>
+      <a class="button hero-more-button" href="#">Подробнее</a>
       <ol class="hero-pagination-list">
         <li class="hero-pagination-item">
           <button class="hero-pagination-button hero-pagination-button-current" type="button"></button>
@@ -86,11 +86,11 @@
       </ol>
     </section>
     <section class="services">
-      <h2 class="services-title">Услуги центра</h2>
-      <a class="services-more-button" href="#">Все услуги</a>
+      <h2 class="title services-title">Услуги центра</h2>
+      <a class="button services-more-button" href="#">Все услуги</a>
       <ul class="services-list">
         <li class="services-item">
-          <h3 class="services-item-title">Аппаратная косметология</h3>
+          <h3 class="services-item-title"><span class="italic-title-wripper">Аппаратная</span> косметология</h3>
           <ul class="services-description-list">
             <li class="services-description-item">Альтера-терапия</li>
             <li class="services-description-item">Фототерапия BBL Hero</li>
@@ -103,7 +103,7 @@
       </ul>
       <ul class="services-list">
         <li class="services-item">
-          <h3 class="services-item-title">Инъекционная косметология</h3>
+          <h3 class="services-item-title"><span class="italic-title-wripper">Инъекционная</span> косметология</h3>
           <ul class="services-description-list">
             <li class="services-description-item">Биоревитализация</li>
             <li class="services-description-item">Ботулинотерапия</li>
@@ -113,7 +113,7 @@
       </ul>
       <ul class="services-list">
         <li class="services-item">
-          <h3 class="services-item-title">Эстетическая косметология</h3>
+          <h3 class="services-item-title"><span class="italic-title-wripper">Эстетическая</span> косметология</h3>
           <ul class="services-description-list">
             <li class="services-description-item">Гигиеническая чистка</li>
             <li class="services-description-item">Перманентный макияж</li>
@@ -123,23 +123,22 @@
       </ul>
       <ul class="services-list">
         <li class="services-item">
-          <h3 class="services-item-title">Лазерная косметология</h3>
+          <h3 class="services-item-title"><span class="italic-title-wripper">Лазерная</span> косметология</h3>
         </li>
       </ul>
       <ul class="services-list">
         <li class="services-item">
-          <h3 class="services-item-title">Мужская косметология</h3>
+          <h3 class="services-item-title"><span class="italic-title-wripper">Мужская</span> косметология</h3>
         </li>
       </ul>
     </section>
     <section class="advantages">
       <h2 class="visually-hidden">Преимущества центра.</h2>
-      <p class="advantages-title">Центр косметологии
-        Клиники Екатерининская</p>
+      <p class="advantages-title"><span class="italic-title-wripper">Центр косметологии</span> Клиники Екатерининская</p>
       <p class="advantages-description">В косметологии Клиники Екатерининская работают только врачи-дерматокосметологи и
         трихологи. Поэтому мы гарантируем профессиональный подход и только самое качественное выполнение услуг. К вашим
         услугам лазерная и инъекционная косметология, аппаратные методики, профессиональный уход за кожей.</p>
-      <a class="advantages-more-button" href="#">О Центре</a>
+      <a class="button advantages-more-button" href="#">О Центре</a>
       <ul class="advantages-list">
         <li class="advantages-item">
           <h3 class="advantages-item-title">Передовые технологии</h3>
@@ -157,8 +156,8 @@
       </ul>
     </section>
     <section class="specialists">
-      <h2 class="specialists-title">Наши специалисты</h2>
-      <a class="specialists-more-button" href="#">Все специалисты</a>
+      <h2 class="title specialists-title">Наши специалисты</h2>
+      <a class="button specialists-more-button" href="#">Все специалисты</a>
       <ul class="specialists-list">
         <li class="specialists-item">
           <h3 class="specialists-item-title">Бондарь Мария Викторовна</h3>
@@ -183,8 +182,8 @@
       <button class="specialists-leaf-button specialists-next-button" type="button"></button>
     </section>
     <section class="reviews">
-      <h2 class="reviews-title">Отзывы</h2>
-      <a class="reviews-more-button" href="#">Все отзывы</a>
+      <h2 class="title reviews-title">Отзывы</h2>
+      <a class="button reviews-more-button" href="#">Все отзывы</a>
       <ul class="reviews-list">
         <li class="reviews-item">
           <blockquote class="rewiews-blockquote">
@@ -204,10 +203,10 @@
         </li>
       </ul>
       <p class="feedback-text">Для нас важно ваше мнение!</p>
-      <a class="feedback-button" href="#">Оставить отзыв</a>
+      <a class="button feedback-button" href="#">Оставить отзыв</a>
     </section>
     <section class="contacts">
-      <h2 class="contacts-title">Контакты</h2>
+      <h2 class="title contacts-title">Контакты</h2>
       <img class="contacts-image" src="#" alt="Здание центра косметологии.">
       <ol class="contacts-pagination-list">
         <li class="contacts-pagination-item">
@@ -259,7 +258,7 @@
           <button class="contacts-pagination-button" type="button"></button>
         </li>
       </ol>
-      <p class="contacts-subtitle">Центр косметологии Клиники Екатерининская</p>
+      <p class="title contacts-subtitle">Центр косметологии Клиники Екатерининская</p>
       <address class="contacts-address">
         <p class="contacts-address-text">ул. Кожевенная, 66</p>
       </address>
@@ -278,7 +277,7 @@
       </ul>
     </section>
     <section class="rating">
-      <h2 class="rating-title">Рейтинги независимых сервисов</h2>
+      <h2 class="title rating-title">Рейтинги независимых сервисов</h2>
       <ul class="rating-list">
         <li class="rating-item">
           <h3 class="rating-company-name">Яндекс</h3>
@@ -303,18 +302,18 @@
       </ul>
     </section>
     <section class="subscribe-entry">
-      <h2 class="subscribe-entry-title">Запишитесь на консультацию</h2>
+      <h2 class="title subscribe-entry-title">Запишитесь на консультацию</h2>
       <p class="subscribe-entry-description">Укажите свой номер телефона. Мы свяжемся с вами в ближайшее время.</p>
       <form class="subscribe-entry-form" action="https://echo.htmlacademy.ru/" method="post">
         <label for="entry-phone" class="visually-hidden">Номер телефона.</label>
         <input class="subscribe-entry-field" type="tel" name="entry-phone" id="entry-phone"
           placeholder="+7 (___) ___-__-__" required>
-        <button class="subscribe-entry-button" type="submit">Отправить</button>
+        <button class="button subscribe-entry-button" type="submit">Отправить</button>
         <label class="subscribe-entry-agreement">
-          <span class="entry-agreement-text">Я соглашаюсь с <a class="personal-information-link" href="#">политикой
-              обработки персональных данных</a> и <a class="terms-of-use-link" href="#">пользовательским
+          <span class="entry-agreement-text">Я соглашаюсь с <a class="entry-information-link" href="#">политикой
+              обработки персональных данных</a> и <a class="entry-information-link" href="#">пользовательским
               соглашением</a>, а также даю
-            согласие на <a class="personal-data-link" href="#">обработку персональных данных</a>.</span>
+            согласие на <a class="entry-information-link" href="#">обработку персональных данных</a>.</span>
           <input class="entry-agreement-checkbox" type="checkbox" name="entry-agreement">
         </label>
       </form>
@@ -322,10 +321,10 @@
   </main>
   <footer class="page-footer">
     <a class="footer-logo" href="#">
-      <img class="footer-logo-image" width="162" height="40" src="#" alt="Логотип центра.">
+      <img class="footer-logo-image" width="162" height="40" src="image/logo.svg" alt="Логотип центра.">
     </a>
     <p class="footer-copyright">© 2023 «Клиника Екатерининская»</p>
-    <a class="footer-license-link" href="#">Лицензия №ЛО-23-01-014758 от 21 августа 2020</a>
+    <a class="footer-documents-link" href="#">Лицензия №ЛО-23-01-014758 от 21 августа 2020</a>
     <a class="footer-documents-link" href="#">Правовые документы</a>
     <button class="visually-impaired-button" type="button">Версия для слабовидящих</button>
     <p class="footer-prevention-text">Имеются противопоказания. Необходима консультация специалиста</p>

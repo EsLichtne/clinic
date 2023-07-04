@@ -24,3 +24,428 @@
     url("../fonts/manrope-600.woff2") format("woff2");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/cormorant-garamond-600.woff") format("woff"),
+    url("../fonts/cormorant-garamond-600.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/cormorant-garamond-600-Italic.woff") format("woff"),
+    url("../fonts/cormorant-garamond-600-Italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: none;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", arial, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 200;
+  color: #546272;
+  background-image: linear-gradient(330deg, #e7e1e0 0, #f9faff 30%);
+}
+
+.button {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+/* Шапка */
+
+.page-header {
+  background-color: #ffffff;
+}
+
+.center-services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.center-services-link {
+  font-size: 13px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #546272;
+}
+
+.center-logo {
+  text-decoration: none;
+}
+
+.center-phone {
+  text-decoration: none;
+  color: #546272;
+}
+
+.bold-phone-text {
+  font-weight: 600;
+}
+
+.entry-button {
+  color: #ffffff;
+}
+
+.login-button {
+  color: #546272;
+}
+
+.header-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-nav-link {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #546272;
+}
+
+/* Герой */
+
+.hero {
+  background-color: #ded6d5;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.hero-subtitle {
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.hero-more-button {
+  color: #ffffff;
+}
+
+.hero-pagination-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Услуги */
+
+.services-title {
+  margin: 0;
+}
+
+.services-more-button {
+  color: #546272;
+}
+
+.services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #ffffff;
+}
+
+.services-list:first-of-type {
+  background-color: #e7e1e0;
+}
+
+.services-item-title{
+  margin: 0;
+  font-family: "Cormorant Garamond", arial, sans-serif;
+  font-size: 27px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.italic-title-wripper {
+  font-style: italic;
+}
+
+.services-description-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Преимущества */
+
+.advantages {
+  background-color: #ebebeb;
+}
+
+.advantages-title {
+  margin: 0;
+  font-family: "Cormorant Garamond", arial, sans-serif;
+  font-size: 44px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.advantages-description {
+  margin: 0;
+}
+
+.advantages-more-button {
+  color: #ffffff;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #ffffff;
+}
+
+.advantages-item-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.advantages-item-description {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Специалисты */
+
+.specialists-title {
+  margin: 0;
+}
+
+.specialists-more-button {
+  color: #546272;
+}
+
+.specialists-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.specialists-item-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.specialists-item-description {
+  margin: 0;
+}
+
+/* Отзывы */
+
+.reviews-title {
+  margin: 0;
+}
+
+.reviews-more-button {
+  color: #546272;
+}
+
+.reviews-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rewiews-blockquote {
+  margin: 0;
+}
+
+.rewiews-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.feedback-text {
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.feedback-button {
+  color: #ffffff;
+}
+
+/* Контакты */
+
+.contacts-title {
+  margin: 0;
+}
+
+.contacts-pagination-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts-subtitle {
+  margin: 0;
+}
+
+.contacts-address-text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.contacts-shedule-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts-shedule-item {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts-social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts-social-link {
+  line-height: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #546272;
+}
+
+/* Рейтинг */
+
+.rating-title {
+  margin: 0;
+}
+
+.rating-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rating-item {
+  background-color: #ffffff;
+}
+
+.rating-company-name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.rating-company-grade {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #9a888a;
+}
+
+.rating-amount {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+/* Запись */
+
+.subscribe-entry {
+  background-color: #e7e1e0;
+}
+
+.subscribe-entry-title {
+  margin: 0;
+  line-height: 40px;
+}
+
+.subscribe-entry-description {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.subscribe-entry-button {
+  color: #ffffff;
+}
+
+.subscribe-entry-field::placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  color: #757575;
+}
+
+.entry-agreement-text {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.entry-information-link {
+  color: #546272;
+}
+
+/* Подвал */
+
+.page-footer {
+  font-size: 13px;
+  line-height: 19px;
+  color: #ffffff;
+  background-color: #546272;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
+.footer-documents-link {
+  color: #ffffff;
+}
+
+.visually-impaired-button {
+  color: #ffffff;
+}
+
+.footer-prevention-text {
+  margin: 0;
+}
