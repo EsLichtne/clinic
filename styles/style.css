@@ -214,7 +214,7 @@ body {
 }
 
 .more-button {
-  padding: 11px 20px;
+  padding: 12px 20px;
   background-color: #ffffff;
 }
 
@@ -435,8 +435,8 @@ body {
 
 .italic-title-wripper {
   font-family: "Cormorant Garamond", "Times New Roman", serif;
-  font-size: 44px;
-  line-height: 44px;
+  font-size: 28px;
+  line-height: 27px;
   font-weight: 600;
 }
 
@@ -856,28 +856,101 @@ body {
 /* Запись */
 
 .subscribe-entry {
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding-top: 30px;
+  padding-bottom: 32px;
   background-color: #e7e1e0;
+  border-radius: 24px;
+  box-shadow: 0 0 16px 0 rgba(230, 230, 230, 0.5);
+}
+
+.subscribe-section-wrapper {
+  width: 600px;
+  margin: 0 auto;
 }
 
 .subscribe-entry-title {
   margin: 0;
+  margin-bottom: 15px;
   line-height: 40px;
+  text-align: center;
 }
 
 .subscribe-entry-description {
   margin: 0;
+  margin-bottom: 25px;
   font-size: 16px;
   line-height: 24px;
+  text-align: center;
 }
 
-.subscribe-entry-button {
-  color: #ffffff;
+.subscribe-entry-field {
+  width: 361px;
+  margin-right: 30px;
+  margin-bottom: 16px;
+  padding: 14px 17px 14px 51px;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 24px;
+  background-image: url("../image/phone.svg"), url("../image/stick.svg");
+  background-repeat: no-repeat;
+  background-position: 12px center, 41px;
+  background-size: 20px 20px, 2px 48px;
 }
 
 .subscribe-entry-field::placeholder {
   font-size: 15px;
   font-weight: 500;
   color: #757575;
+}
+
+.subscribe-entry-button {
+  padding: 12px 61px;
+  color: #ffffff;
+  background-color: #c6c7c9;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.subscribe-entry-agreement {
+  display: flex;
+  gap: 16px;
+}
+
+.entry-agreement-checkbox[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  width: 42px;
+  height: 16px;
+  margin: 0;
+  background-color: #9a888a8e;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.entry-agreement-checkbox[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.entry-agreement-checkbox[type="checkbox"]:checked {
+  background-color: #9a888a;
+  transition: background-color 0.5s;
+}
+
+.entry-agreement-checkbox[type="checkbox"]:checked::before {
+  right: 2px;
 }
 
 .entry-agreement-text {
@@ -892,6 +965,8 @@ body {
 /* Подвал */
 
 .page-footer {
+  margin-top: 48px;
+  padding: 56px 0;
   font-size: 13px;
   line-height: 19px;
   color: #ffffff;
@@ -899,8 +974,22 @@ body {
 }
 
 .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   width: 1110px;
   margin: 0 auto;
+}
+
+.footer-copyright-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 298px;
+}
+
+.footer-logo {
+  padding-left: 17px;
+  margin-bottom: 23px;
 }
 
 .footer-copyright {
@@ -912,9 +1001,24 @@ body {
 }
 
 .visually-impaired-button {
+  padding: 0;
+  padding-left: 36px;
   color: #ffffff;
+  background-color: transparent;
+  border: none;
+  background-image: url("../image/eye.svg");
+  background-repeat: no-repeat;
+  background-size: 26px 17px;
+  background-position: left center;
+  cursor: pointer;
 }
 
 .footer-prevention-text {
+  width: 261px;
   margin: 0;
+  padding-top: 60px;
+  background-image: url("../image/circle.svg"), url("../image/circle.svg"),
+    url("../image/circle.svg");
+  background-repeat: no-repeat;
+  background-position: 10px 6px, 74px 6px, 139px 6px;
 }
