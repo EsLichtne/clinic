@@ -410,11 +410,27 @@ body {
 /* Преимущества */
 
 .advantages {
-  background-color: #ebebeb;
+  background-image: linear-gradient(#ebebeb 625px, #f9faff 625px);
+  margin-bottom: 62px;
+}
+
+.advantages .section-container {
+  padding-top: 88px;
+  background-image: url("../image/center-building.png");
+  background-repeat: no-repeat;
+  background-position: right 56px;
+  background-size: 543px 448px;
 }
 
 .advantages-title {
   margin: 0;
+  margin-bottom: 35px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.italic-title-wripper {
   font-family: "Cormorant Garamond", "Times New Roman", serif;
   font-size: 44px;
   line-height: 44px;
@@ -422,22 +438,56 @@ body {
 }
 
 .advantages-description {
+  width: 529px;
   margin: 0;
+  margin-bottom: 42px;
 }
 
 .advantages-more-button {
+  margin-bottom: 37px;
+  padding: 12px 60px;
+  background-color: #546272;
   color: #ffffff;
 }
 
 .advantages-list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: 32px 9px;
   list-style: none;
   background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 0 16px 0 rgba(230, 230, 230, 0.5);
+}
+
+.advantages-item {
+  width: 364px;
+  padding-left: 85px;
+  background-repeat: no-repeat;
+  background-position: 23px 0;
+  background-size: 42px 35px;
+}
+
+.advantages-item + .advantages-item:not(:nth-child(4n)) {
+  border-left: 1px solid #ebebeb;
+}
+
+.advantages-item-technology {
+  background-image: url("../image/chip.svg");
+}
+
+.advantages-item-confidentiality {
+  background-image: url("../image/close-eye.svg");
+}
+
+.advantages-item-time {
+  background-image: url("../image/clock.svg");
 }
 
 .advantages-item-title {
   margin: 0;
+  margin-bottom: 23px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 200;
