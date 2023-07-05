@@ -601,6 +601,10 @@ body {
 
 /* Отзывы */
 
+.reviews {
+  margin-bottom: 58px;
+}
+
 .reviews-title {
   margin: 0;
 }
@@ -609,10 +613,26 @@ body {
   color: #546272;
 }
 
+.rewiews-blocks-wrapper {
+  display: grid;
+  grid-template-columns: 730px 350px;
+  gap: 30px;
+}
+
 .reviews-list {
+  display: flex;
+  gap: 30px;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.reviews-item {
+  width: 350px;
+  min-height: 412px;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 24px;
 }
 
 .rewiews-blockquote {
@@ -625,6 +645,15 @@ body {
   line-height: 24px;
 }
 
+.feedback-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 32px;
+  background-color: #e7e1e0;
+  border-radius: 24px;
+}
+
 .feedback-text {
   margin: 0;
   font-size: 24px;
@@ -633,7 +662,12 @@ body {
 }
 
 .feedback-button {
+  width: 100%;
+  margin-top: auto;
+  padding: 11px 50px;
+  text-align: center;
   color: #ffffff;
+  background-color: #546272;
 }
 
 /* Контакты */
