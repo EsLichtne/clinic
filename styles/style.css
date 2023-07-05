@@ -207,6 +207,17 @@ body {
   margin: 0 auto;
 }
 
+.section-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.more-button {
+  padding: 11px 20px;
+  background-color: #ffffff;
+}
+
 /* Герой */
 
 .hero {
@@ -275,20 +286,12 @@ body {
   margin-bottom: 56px;
 }
 
-.services-header-wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 42px;
-}
-
 .services-title {
   margin: 0;
 }
 
 .services-more-button {
-  padding: 11px 20px;
   color: #546272;
-  background-color: #ffffff;
 }
 
 .services-list {
@@ -501,6 +504,14 @@ body {
 
 /* Специалисты */
 
+.specialists {
+  margin-bottom: 56px;
+}
+
+.specialists .section-container {
+  position: relative;
+}
+
 .specialists-title {
   margin: 0;
 }
@@ -510,20 +521,82 @@ body {
 }
 
 .specialists-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  gap: 30px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.specialists-item {
+  display: grid;
+  grid-template-rows: auto auto auto 26px;
+  grid-template-columns: 32px 286px 32px;
+  width: 350px;
+  background-image: linear-gradient(180deg, #e7e1e0 31%, #f8ece9 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 24px;
+}
+
+.specialists-photo {
+  grid-row: 1 / 5;
+  grid-column: 1 / 4;
+}
+
 .specialists-item-title {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
   margin: 0;
+  margin-bottom: 12px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
+  z-index: 1;
 }
 
 .specialists-item-description {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
   margin: 0;
+  margin-bottom: 6px;
+  font-size: 16px;
+  line-height: 24px;
+  z-index: 1;
+}
+
+.specialists-item-supplement {
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 18px;
+  border: 1px solid #9a888a;
+  border-radius: 24px;
+  opacity: 0.5;
+}
+
+.specialists-leaf-button {
+  position: absolute;
+  top: 295px;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  background-image: url("../image/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+  cursor: pointer;
+}
+
+.specialists-back-button {
+  left: -50px;
+}
+
+.specialists-next-button {
+  transform: rotate(180deg);
+  right: -50px;
 }
 
 /* Отзывы */
