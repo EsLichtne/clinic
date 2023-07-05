@@ -218,6 +218,15 @@ body {
   background-color: #ffffff;
 }
 
+.pagination-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* Герой */
 
 .hero {
@@ -256,16 +265,7 @@ body {
   color: #ffffff;
 }
 
-.hero-pagination-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 13px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.hero-pagination-button {
+.pagination-button {
   width: 12px;
   height: 12px;
   border: none;
@@ -274,7 +274,7 @@ body {
   cursor: pointer;
 }
 
-.hero-pagination-button-current {
+.pagination-button-current {
   width: 36px;
   border-radius: 8px;
   background-color: #9a888a;
@@ -672,22 +672,53 @@ body {
 
 /* Контакты */
 
+.contacts {
+  margin-bottom: 58px;
+}
+
 .contacts-title {
   margin: 0;
+  margin-bottom: 42px;
+}
+
+.contacts-blocks-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 539px);
+  grid-template-rows: auto auto;
+  grid-auto-flow: dense;
+  gap: 32px;
+}
+
+.contacts-image {
+  grid-row: 1 / 3;
+  border-radius: 24px;
 }
 
 .contacts-pagination-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  position: absolute;
+  top: 414px;
+  left: 76px;
+  z-index: 1;
+}
+
+.address-wrapper {
+  width: 539px;
+  padding: 32px;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 0 16px 0 rgba(230, 230, 230, 0.5);
 }
 
 .contacts-subtitle {
   margin: 0;
+  margin-bottom: 34px;
 }
 
 .contacts-address-text {
   margin: 0;
+  margin-bottom: 26px;
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
@@ -706,40 +737,111 @@ body {
 }
 
 .contacts-social-list {
+  display: flex;
+  gap: 32px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.contacts-social-item {
+  width: 253px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 0 16px 0 rgba(230, 230, 230, 0.5);
+}
+
 .contacts-social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 32px;
   line-height: 25px;
   font-weight: 600;
   text-decoration: none;
   color: #546272;
 }
 
+.contacts-social-link::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contacts-social-link-vk::before {
+  background-image: url("../image/vk.svg");
+}
+
+.contacts-social-link-mail::before {
+  background-image: url("../image/mail.svg");
+}
+
 /* Рейтинг */
+
+.rating {
+  margin-bottom: 56px;
+}
 
 .rating-title {
   margin: 0;
+  margin-bottom: 42px;
 }
 
 .rating-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 255px);
+  gap: 30px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .rating-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  width: 255px;
+  padding: 20px;
   background-color: #ffffff;
+  border-radius: 24px;
+  background-repeat: no-repeat;
+  background-position: 76px bottom;
+}
+
+.rating-item-yandex {
+  background-image: url("../image/yandex.svg");
+  background-size: 178px 44px;
+}
+
+.rating-item-gis {
+  background-image: url("../image/2gis.svg");
+  background-size: 178px 42px;
+}
+
+.rating-item-sber {
+  background-image: url("../image/sber.svg");
+  background-size: 178px 38px;
+}
+
+.rating-item-doctors {
+  padding-right: 26px;
+  background-image: url("../image/pro-doctorov.svg");
+  background-size: 178px 35px;
 }
 
 .rating-company-name {
   margin: 0;
+  font-size: 18px;
+  line-height: 27px;
   font-weight: 600;
 }
 
 .rating-company-grade {
+  order: -1;
   font-size: 40px;
   line-height: 60px;
   font-weight: 600;
