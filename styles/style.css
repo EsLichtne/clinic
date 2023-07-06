@@ -1182,6 +1182,7 @@ body {
 }
 
 .gallery-image {
+  display: block;
   border-radius: 24px;
 }
 
