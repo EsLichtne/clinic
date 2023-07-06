@@ -98,6 +98,8 @@ body {
   font-weight: 600;
 }
 
+/* Главная */
+
 /* Шапка */
 
 .page-header {
@@ -1052,4 +1054,41 @@ body {
   background-position: center;
   background-size: 24px 24px;
   cursor: pointer;
+}
+
+/* О центре */
+
+.about-header {
+  margin-bottom: 30px;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 56px;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs-item {
+  position: relative;
+}
+
+.breadcrumbs-item:not(:last-child)::after {
+  content: url("../image/separator.svg");
+  position: absolute;
+  top: 0;
+  right: -13px;
+  width: 5px;
+  height: 20px;
+}
+
+.breadcrumbs-link {
+  font-size: 13px;
+  line-height: 19px;
+  color: #546272;
+  text-decoration: none;
 }
