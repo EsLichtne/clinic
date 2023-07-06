@@ -1052,7 +1052,7 @@ body {
   top: 50%;
   background-color: #9a888a;
   border-radius: 50%;
-  border: 6px solid #d9d9d9;
+  border: 6px solid #dbd4d6;
   background-image: url("../image/button-phone.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1188,4 +1188,82 @@ body {
 
 .gallery-more-button {
   color: #546272;
+}
+
+/* Специалисты */
+
+.specialists-main .specialists {
+  position: relative;
+}
+
+.specialists-header {
+  margin-bottom: 30px;
+}
+
+.specialists-main .specialists {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.specislists-title {
+  margin: 0;
+  margin-bottom: 63px;
+}
+
+.specialists-description {
+  margin: 0;
+  margin-bottom: 82px;
+}
+
+.specialists-description-supplement {
+  display: inline-block;
+}
+
+.communication-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  gap: 20px;
+  width: 350px;
+  min-height: 445px;
+  padding: 32px;
+  background-color: #e7e1e0;
+  border-radius: 24px;
+}
+
+.communication-title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600px;
+}
+
+.communication-text {
+  width: 231px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.communication-phone {
+  position: relative;
+  align-self: end;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #546272;
+}
+
+.communication-phone::after {
+  content: "";
+  position: absolute;
+  top: -18px;
+  right: 22px;
+  width: 40px;
+  height: 40px;
+  background-color: #9a888a;
+  border: 11px solid #c1b5b5;
+  border-radius: 50%;
 }
