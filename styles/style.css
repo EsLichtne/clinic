@@ -1060,7 +1060,7 @@ body {
   width: 56px;
   height: 56px;
   right: 55px;
-  top: 50%;
+  bottom: 55px;
   background-color: #9a888a;
   border-radius: 50%;
   border: 6px solid #dbd4d6;
@@ -1069,6 +1069,12 @@ body {
   background-position: center;
   background-size: 24px 24px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.page-call-button:hover {
+  transform: scale(1.5);
+  transition: all 0.5s;
 }
 
 /* О центре */
@@ -1313,7 +1319,8 @@ body {
   width: 390px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  column-gap: 30px;
+  row-gap: 2px;
   margin: 0;
   margin-bottom: 17px;
   padding: 0;
