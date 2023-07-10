@@ -1577,3 +1577,134 @@ body {
 .specialist-review-text {
   margin: 0;
 }
+
+.specialist-registration {
+  display: flex;
+  gap: 30px;
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.pagination-image-wrapper {
+  position: relative;
+  width: 540px;
+  min-height: 461px;
+  background-color: #757575;
+  background-image: url("../image/reception.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+}
+
+.registration-pagination-list {
+  position: absolute;
+  top: 422px;
+  left: 164px;
+}
+
+.specialist-registration-wrapper {
+  width: 540px;
+  padding: 32px 30px;
+  background-color: #e7e1e0;
+  border-radius: 24px;
+}
+
+.specialist-registration-title {
+  margin: 0;
+  margin-bottom: 29px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.specialist-registration-text {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.specialist-registration-description {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.specialist-registration-form {
+  display: grid;
+}
+
+.specialist-registration-field {
+  width: 430px;
+  margin-bottom: 16px;
+  padding: 12px 23px;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 24px;
+}
+
+.specialist-registration-field::placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  color: #757575;
+}
+
+.specialist-registration-agreement {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.registration-agreement-checkbox[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  width: 42px;
+  height: 16px;
+  margin: 0;
+  background-color: #9a888a8e;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.registration-agreement-checkbox[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.registration-agreement-checkbox[type="checkbox"]:checked {
+  background-color: #9a888a;
+  transition: background-color 0.5s;
+}
+
+.registration-agreement-checkbox[type="checkbox"]:checked::before {
+  right: 2px;
+}
+
+.registration-agreement-text {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.registration-information-link {
+  color: #546272;
+}
+
+.specialist-registration-button {
+  margin-top: 16px;
+  padding: 11px 68px;
+  color: #ffffff;
+  background-color: #c6c7c9;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
