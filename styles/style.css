@@ -340,14 +340,6 @@ body {
   font-weight: 600;
 }
 
-.italic-title-wripper {
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
-  font-style: italic;
-  font-size: 27px;
-  line-height: 27px;
-  font-weight: 600;
-}
-
 .services-item-hardware {
   grid-column: span 2;
   grid-row: span 2;
@@ -447,8 +439,9 @@ body {
   font-weight: 600;
 }
 
-.italic-title-wripper {
+.italic-title-wrapper {
   font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-style: italic;
   font-size: 28px;
   line-height: 27px;
   font-weight: 600;
@@ -1276,4 +1269,75 @@ body {
   background-color: #9a888a;
   border: 11px solid #c1b5b5;
   border-radius: 50%;
+}
+
+/* О специалисте */
+
+.specialist-card {
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+  background-color: #ded6d5;
+  border-radius: 24px;
+}
+
+.specialist-text-wrapper {
+  width: 555px;
+  padding: 78px 38px 84px 64px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.specialist-card-title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.specialist-card-title .italic-title-wrapper {
+  font-size: 44px;
+}
+
+.specialist-activities-list {
+  width: 390px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  margin-bottom: 17px;
+  padding: 0;
+  list-style: none;
+}
+
+.specialist-activities-item {
+  position: relative;
+}
+
+.specialist-activities-item:not(:last-child)::after {
+  content: url("../image/list-separator.svg");
+  position: absolute;
+  top: 0;
+  right: -15px;
+  width: 1px;
+  height: 12px;
+}
+
+.specialist-experience {
+  margin: 0;
+  margin-bottom: 19px;
+}
+
+.specialist-price {
+  margin: 0;
+  margin-bottom: 19px;
+}
+
+.enroll-button {
+  margin-top: 58px;
+  padding: 12px 56px;
+  color: #ffffff;
+  background-color: #546272;
+  border-radius: 24px;
 }
