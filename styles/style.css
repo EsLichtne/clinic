@@ -1373,3 +1373,207 @@ body {
   line-height: 50px;
   font-weight: 400;
 }
+
+.specialist-advantages {
+  margin-bottom: 58px;
+}
+
+.specialist-advantages-wrapper {
+  display: flex;
+  column-gap: 60px;
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.specialist-advantages-photo {
+  border-radius: 24px;
+}
+
+.specialist-advantages-list {
+  margin: 0;
+  margin-bottom: 64px;
+  padding: 0;
+  padding-top: 144px;
+  list-style: none;
+}
+
+.specialist-advantages-item {
+  padding-left: 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.specialist-advantages-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.specialist-advantages-item-title {
+  margin-bottom: 30px;
+  padding-left: 0;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 500;
+}
+
+.specialist-advantages .italic-title-wrapper {
+  font-size: 33px;
+  line-height: 33px;
+}
+
+.specialist-information-list {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.specialist-information-item {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 0 16px 0 rgba(230, 230, 230, 0.5);
+}
+
+.specialist-information-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.specialist-information-title {
+  position: relative;
+  display: block;
+  padding: 22px 32px;
+}
+
+.specialist-information-title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-50%);
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+}
+
+.specialist-information-item-current .specialist-information-title::after {
+  border-color: #546272;
+}
+
+.specialist-education-list {
+  position: relative;
+  margin: 0;
+  padding: 20px 96px;
+  list-style: none;
+  border-top: 1px solid #ebebeb;
+}
+
+.specialist-education-list::before {
+  content: "";
+  position: absolute;
+  left: 67px;
+  top: 20px;
+  width: 2px;
+  height: 72px;
+  background-color: #9a888a;
+}
+
+.specialist-education-item {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 200;
+}
+
+.specialist-education-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.specialist-education-item::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -32px;
+  width: 8px;
+  height: 8px;
+  background-color: #9a888a;
+  border-radius: 50%;
+}
+
+.specialist-requests {
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+
+.specialist-requests-title {
+  margin: 0;
+  margin-bottom: 42px;
+}
+
+.specialist-requests-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.specialist-requests-item {
+  width: 340px;
+  padding: 33px 20px 30px;
+  background-color: #ffffff;
+  background-image: url("../image/eight-rays-star.svg");
+  background-repeat: no-repeat;
+  background-position: 20px 24px;
+  background-size: 52px 52px;
+  border-radius: 24px;
+  box-shadow: 0 0 16px 0 rgba(230, 230, 230, 0.5);
+}
+
+.requests-item-title {
+  margin: 0;
+  margin-bottom: 35px;
+  padding-left: 72px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.specialist-requests .italic-title-wrapper {
+  font-size: 27px;
+}
+
+.specialist-review {
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.specialist-review-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.specialist-review-title {
+  margin: 0;
+  margin-bottom: 42px;
+}
+
+.specialist-review-blockquote {
+  width: 732px;
+  min-height: 412px;
+  margin: 0;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+
+.specialist-review-text {
+  margin: 0;
+}
