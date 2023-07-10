@@ -572,6 +572,8 @@ body {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
+  text-decoration: none;
+  color: #546272;
   z-index: 1;
 }
 
