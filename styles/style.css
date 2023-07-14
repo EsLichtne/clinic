@@ -1045,14 +1045,27 @@ body {
   cursor: pointer;
 }
 
+.footer-social-list {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  margin-bottom: 13px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-social-link {
+  display: grid;
+  place-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
 .footer-prevention-text {
   width: 261px;
   margin: 0;
-  padding-top: 60px;
-  background-image: url("../image/circle.svg"), url("../image/circle.svg"),
-    url("../image/circle.svg");
-  background-repeat: no-repeat;
-  background-position: 10px 6px, 74px 6px, 139px 6px;
 }
 
 /* Кнопка вызова */
